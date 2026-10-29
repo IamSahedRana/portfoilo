@@ -84,7 +84,7 @@ document.getElementById('project-modal').addEventListener('click', (e) => {
 
 // Copy email address.
 async function copyEmail() {
-  const email = 'iamsahedrana@gmail.com';
+  const email = 'abdullasahed.dev@gmail.com';
   const label = document.getElementById('copy-label');
   try {
     await navigator.clipboard.writeText(email);
@@ -115,7 +115,7 @@ function handleContactSubmit(e) {
 Email: ${email}
 
 ${message}`);
-  window.location.href = `mailto:iamsahedrana@gmail.com?subject=${mailSubject}&body=${mailBody}`;
+  window.location.href = `mailto:abdullasahed.dev@gmail.com?subject=${mailSubject}&body=${mailBody}`;
   const feedback = document.getElementById('form-feedback');
   feedback.textContent = 'Your email app should open with your message ready to send.';
   feedback.classList.remove('hidden');
